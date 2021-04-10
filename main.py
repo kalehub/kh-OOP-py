@@ -1,4 +1,5 @@
 from MyClass import *
+from InheritClass import *
 
 
 
@@ -20,6 +21,10 @@ def main():
     print(obj.speak('why so lonely'))
     print(obj.__str__())
 
+    # inheritance
+    obj_3 = InheritClass('dog', 2)
+    print(obj_3.__str__())
+    print(obj_3.speak())
     
 
 
